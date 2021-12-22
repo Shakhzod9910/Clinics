@@ -1,0 +1,441 @@
+.superadmin{
+    width: 100%;
+    .navbar{
+        width: 100%;
+        height: 60px;
+        background-color: #0080A9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            color: #fff;
+            font-size: 40px;
+            
+        }
+
+        .order2{
+            position: absolute;
+            right: 140px;
+            top: 20px;
+            font-size: 22px;
+            cursor: pointer;
+            color: #fff;
+            transition: all 0.3s ease;
+            &:hover{
+                color:  rgb(253, 206, 51);
+            }
+        }
+        .clinic3{
+            position: absolute;
+            right: 50px;
+            top: 20px;
+            font-size: 22px;
+            cursor: pointer;
+            color: #fff;
+            transition: all 0.3s ease;
+            &:hover{
+                color:  rgb(253, 206, 51);
+            }
+        }
+        .add2{
+            position: absolute;
+            right: 230px;
+            top: 20px;
+            font-size: 22px;
+            cursor: pointer;
+            color: #fff;
+            transition: all 0.3s ease;
+            &:hover{
+                color:  rgb(253, 206, 51);
+            }
+        }
+
+        .clinic2{
+            position: absolute;
+            right: 370px;
+            top: 20px;
+            font-size: 22px;
+            cursor: pointer;
+            color: #fff;
+            transition: all 0.3s ease;
+            &:hover{
+                color:  rgb(253, 206, 51);
+            }
+        }
+
+
+    }
+}
+
+.containeri h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #0080A9;
+
+}
+
+.listUser{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.listItems{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    span{
+    width: 20%;
+
+    }
+}
+
+.listItems span{
+   
+    background-color: transparent;
+    color: #000;
+
+}
+
+.listItems span:first-child{
+    width: 5%;
+}
+
+// .id{
+//     width: 150px;
+// }
+.listItems span:nth-child(2){
+    width: 30%;
+}
+
+
+
+.defaultNames {
+    font-weight: bold;
+    background-color: #0080A9;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    span{
+        width: 20%;
+    }
+}
+
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+
+  .form button{
+      color: #fff;
+      background-color: #0080A9;
+      width: 60px;
+      height: 20px;
+      border-radius: 5px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      border: none;
+      transition: all 0.3s ease;
+  }
+
+
+
+  .pageNumbers{
+      display: flex;
+      width: 400px;
+      height: 40px;
+      margin-right: auto;
+      margin-left: auto;
+      justify-content:space-around;
+      align-items: flex-start;
+      margin-top: 20px;
+      padding-bottom: 50px;      
+  }
+
+  .pageNumbers li {
+      color: blue;
+  }
+
+  .pageNumbers li:hover{
+      cursor: pointer;
+  }
+
+  /* .active{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 22px;
+      height: 22px;
+      background-color:#FF850F ;
+      border-radius: 50%;
+  } */
+
+  .btndelete{
+      width: 60px;
+      height: 20px;
+      transform: translate(196px);
+      background-color: red;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: #fff;
+      transition: all 0.4s ease;
+  }
+
+  .btndelete:hover{
+      border: 1px solid red;
+      background-color: #fff;
+      color: red;
+  }
+
+  .forbtn{
+      display: flex;
+      justify-content: space-between;
+  }
+  .adminRegister{
+      display: none;
+      background-color: #fff;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+  }
+
+
+
+
+  .addadminActive{
+      display: block;
+    
+      .backIcon{
+          position: absolute;
+
+          top: 50px;
+          right: 70px;
+          i{
+              font-size: 30px;
+              color: #0080A9;
+              cursor: pointer;
+          }
+      }
+  }
+
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+
+
+  .header {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0080A9;
+    
+  }
+
+  .list {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  }
+
+  .adressWrapper, .costWrapper, .fotoWrapper, .measureWrapper, .phoneWrapper  {
+    width: 100%;
+    height: 35px;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 5px;
+    box-shadow: rgba(5, 0, 0, 0.24 ) 0px 3px 8px;
+  }
+
+  .adressWrapper i, .costWrapper i, .fotoWrapper i, .measureWrapper i, .phoneWrapper i, .aboutWrapper i{
+    color: #b9b9b9;
+  }
+
+  .adressWrapper input, .costWrapper input, .fotoWrapper input, .measureWrapper input, .phoneWrapper input {
+    width: 93%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .costWrapper::before {
+    content: "Location";
+    width: 70px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-17px);
+    background-color: #fff;
+    font-size: 15px;
+    color: #585858;
+  }
+
+  .adressWrapper::before {
+    content: "Clinic's name";
+    width: 95px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-17px);
+    background-color: #fff;
+    font-size: 15px;
+    color: #585858;
+  }
+
+  .fotoWrapper::before {
+    content: "Enter URL img adress";
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-17px);
+    background-color: #fff;
+    font-size: 15px;
+    color: #585858;
+  }
+
+
+  .measureWrapper::before {
+    content: "Admin name";
+    width: 90px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-17px);
+    background-color: #fff;
+    font-size: 15px;
+    color: #585858;
+  }
+
+  .phoneWrapper::before {
+    content: "Phone number";
+    width: 110px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-17px);
+    background-color: #fff;
+    font-size: 15px;
+    color: #585858;
+  }
+
+  .aboutWrapper::before {
+    content: "General overview";
+    width: 120px;
+    text-align: center;
+    position: absolute;
+    transform: translateY(-17px);
+    background-color: #fff;
+    font-size: 15px;
+    color: #585858;
+  }
+  
+
+  .submitAdBtn {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    background-color: #0080A9;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        border: 1px solid #0080A9;
+        color: #0080A9;
+        background-color: #fff;
+    }
+  }
+
+  .aboutWrapper textarea{
+    width: 93%;
+    height: 90px;
+    border: none;
+    outline: none;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .aboutWrapper{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 5px;
+    box-shadow: rgba(5, 0, 0, 0.24 ) 0px 3px 8px;
+  }
+
+
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .addClinics2{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: #fff;
+  }
+
+  .addClinics2{
+      display: none;
+  }
+
+  .addClinicActive{
+      display: block;
+      .backIcon{
+        position: absolute;
+        top: 50px;
+        right: 70px;
+        i{
+            font-size: 30px;
+            color: #0080A9;
+            cursor: pointer;
+        }
+    }
+  }
+
+  .measures{
+      border: none;
+      outline: none;
+      width: 93%;
+  }
+
+  .clinicError{
+      text-align: center;
+      margin-top: 20px;
+      color: rgb(0, 138, 0);
+  }

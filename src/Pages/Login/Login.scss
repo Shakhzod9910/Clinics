@@ -1,0 +1,151 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+  }
+  .headerLogin {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #08a8cf;
+  }
+  .loginForm {
+    max-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  
+  .loginWrapper {
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 5px;
+
+    input {
+        width: 93%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      i {
+        color: #b9b9b9;
+      }
+      &::before {
+        content: "Login";
+        width: 45px;
+        text-align: center;
+        position: absolute;
+        transform: translateY(-14px);
+        background-color: #fff;
+        font-size: 15px;
+        color: #b9b9b9;
+      }
+  }
+    
+  .passwordWrapper {
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-top: 20px;
+    padding: 5px;
+    i {
+        color: #b9b9b9;
+        transform: rotate(45deg);
+      }
+      &::before {
+        content: "Password";
+        width: 70px;
+        text-align: center;
+        position: absolute;
+        transform: translateY(-14px);
+        background-color: #fff;
+        font-size: 15px;
+        color: #b9b9b9;
+      }
+      input {
+        width: 93%;
+        height: 100%;
+        border: none;
+        outline: none;
+        padding: 5px;
+        border-radius: 5px;
+      }
+  }
+  
+  .loginbtn {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    background-color: #08a8cf;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    &:hover {
+        color: #08a8cf;
+        background-color: #fff;
+        font-weight: bold;
+        border: 1px solid #08a8cf;
+        transform: scale(1.05);
+      }
+  }
+  
+  
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  .haveaccount{
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+}
+
+.jumpRegister{
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    text-decoration: none;
+    /* font-weight: bold; */
+    color: #fff;
+    background-color: #08a8cf;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    transition: all 0.4s ease;
+}
+
+.jumpRegister:hover{
+    border: 1px solid #08a8cf;
+    color: #08a8cf;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+
+.error{
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: normal;
+}
